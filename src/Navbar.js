@@ -5,11 +5,11 @@ import text from "./assets/Layer_1.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#FFF7E6] p-2 px-12 flex justify-between items-center ">
-      <div className="flex items-center">
-        <img src={text} className="px-10" />
+    <nav className="bg-[#FFF7E6] p-2 md:px-12 flex flex-col md:flex-row justify-between items-center">
+      <div className="flex items-center justify-center md:justify-start">
+        <img src={text} className="w-24 md:w-auto" alt="Logo" />
       </div>
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 mt-4 md:mt-0">
         <a
           href="#"
           className="text-black hover:text-yellow-500 hover:underline"
